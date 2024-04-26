@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Character Browse</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="d&d.ico">
+        <link rel="manifest" href="adventurers.webmanifest">
+    </head>
+    <body>
+        <header>
+        <div class="title">
+                <h1>Character browser</h1>
+                <h2><a href="/about">About</a></h2>
+                <h3><a href="/index">Charcters</a></h3>
+                <h4><a href="/main">Home</a></h4>
+                </div>
+            </header>
+            <body>
+                <div class="container">
+                    <%for(let i=0; i<character.length; i++) { %>
+                        <div class="char_name">
+                            <h1><a href="/char_view/<%=character[i]._id%>"><%=character[i].nameCharacter%>
+                            </a></h1>
+                            <p><%=character[i].raceName%>, <%=character[i].className%></p>
+                        </div>
+                        <% } %>                        
+                    </div>
+                </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

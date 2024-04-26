@@ -1,0 +1,124 @@
+body {
+    background-color:#413353;
+}
+.title {
+    background-color:#4b5477;
+    color:white;
+    border:7px white;
+    height: 100px;
+    width: 200;
+    float:none;
+
+}
+.title h1 {
+    font-family:Verdana;
+    font-size: xx-large; 
+    text-align: center; 
+    color:white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.title h2 {
+    font-family:Verdana;
+    font-size: medium; 
+    text-align: right; 
+    color:white;
+}
+.title h3 {
+    font-family:Verdana;
+    font-size: medium; 
+    text-align: right; 
+    color:white;
+}
+
+.title h4 {
+    font-family:Verdana;
+    font-size: medium; 
+    text-align: right; 
+    color:white;
+}
+
+.title h2, .title h3 {
+    display: inline-block;
+}
+
+.title h4 {
+    text-align: right;
+    display: inline-block
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.char_name {
+    background-color:#4b5477;
+    padding: 20px;
+    flex-grow: 1;
+    height: 100px;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    border-style: solid;
+    border-color: #413353;
+}
+
+.char_name h1 {
+    font-size: xx-large;
+}
+
+.char_name p {
+    font-size: large;
+}
+
+.view_name {
+    background-color: #4b5477;
+    text-align: center;
+    height: 220px;   
+    color:white;
+    font-family: Verdana;
+    display: block;
+}
+
+
+.view_name h1 {
+    font-size: 60px;
+}
+
+.view_name h2 {
+    font-size: large;
+}
+.char_describe {
+    background-color:#4b5477;
+    padding: 20px;
+    flex-grow: 1;
+    width: 1500px;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    float:right;
+    font-size: 30px;
+}
+
+.about_text {
+    background-color:#4b5477;
+    color:white;
+    border:2px white;
+    height: 400px;
+    width: 1000px;
+    margin:auto;
+    text-align: center;
+    font-family: Verdana;
+    font-size: medium;
+}

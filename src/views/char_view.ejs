@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <title><%=character.nameCharacter%></title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="d&d.ico">
+        <link rel="manifest" href="adventurers.webmanifest">
+    </head>
+        <header>
+        <div class="title">
+                <h1>Character</h1>
+                <h2><a href="/about">About</a></h2> 
+                <h3><a href="/index">Charcters</a></h3>
+                <h4><a href="/main">Home</a></h4>
+                </div>
+            </header>
+        <div class="view_name">
+            <h1><%=character.nameCharacter%></h1>
+            <h2><%=character.raceName%>, <%=character.className%></h2>
+        </div>
+    <div class="char_describe">
+        <p>Description of character background and story for <%=character.nameCharacter%> goes here.</p>
+    </div>
+    <script src="js/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
